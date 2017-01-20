@@ -7,7 +7,13 @@ spring:
   jackson:
     serialization:
       INDENT_OUTPUT: true
-
+  data:
+    mongodb:
+      database: jwt
+      host: localhost
+      port: 27017
+      repositories.enabled: true
+      
 jwt:
   header: Authorization
   secret: mySecret

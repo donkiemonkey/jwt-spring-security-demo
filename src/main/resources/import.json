@@ -1,0 +1,43 @@
+{ 
+    "_id" : ObjectId("58822afa1db273fb82bd81df"), 
+    "_class" : "org.zerhusen.model.security.User", 
+    "username" : "admin", 
+    "password" : "$2a$08$lDnHPz7eUkSi6ao14Twuau08mzhWrL4kyZGGU5xfiGALO/Vxd5DOi", 
+    "firstname" : "admin", 
+    "lastname" : "admin", 
+    "email" : "admin@admin.com", 
+    "enabled" : true, 
+    "lastPasswordResetDate" : ISODate("2017-01-20T15:21:29.410+0000"), 
+    "authorities" : [
+        "ROLE_ADMIN", 
+        "ROLE_USER"
+    ]
+}
+{ 
+    "_id" : ObjectId("58822afd1db273fb82bd81e0"), 
+    "_class" : "org.zerhusen.model.security.User", 
+    "username" : "user", 
+    "password" : "$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC", 
+    "firstname" : "user", 
+    "lastname" : "user", 
+    "email" : "enabled@user.com", 
+    "enabled" : true, 
+    "lastPasswordResetDate" : ISODate("2017-01-20T15:21:32.143+0000"), 
+    "authorities" : [
+        "ROLE_USER"
+    ]
+}
+{ 
+    "_id" : ObjectId("58822aff1db273fb82bd81e1"), 
+    "_class" : "org.zerhusen.model.security.User", 
+    "username" : "disabled", 
+    "password" : "$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC", 
+    "firstname" : "user", 
+    "lastname" : "user", 
+    "email" : "enabled@user.com", 
+    "enabled" : false, 
+    "lastPasswordResetDate" : ISODate("2017-01-20T15:21:34.729+0000"), 
+    "authorities" : [
+        "ROLE_USER"
+    ]
+}
