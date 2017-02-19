@@ -34,7 +34,7 @@
     "password" : "$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC", 
     "firstname" : "user", 
     "lastname" : "user", 
-    "email" : "enabled@user.com", 
+    "email" : "enabled2@user.com", 
     "enabled" : false, 
     "lastPasswordResetDate" : ISODate("2017-01-20T15:21:34.729+0000"), 
     "authorities" : [
